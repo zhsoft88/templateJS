@@ -49,8 +49,19 @@ document.getElementById("output").innerHTML = result;
 
 ## Template Language Guide
 
+```html
 <@= JavaScript_Expression @>
+```
+
+```html
 <@ Any_JavaScript_Codes @>
+```
+
+```js
 o - Use it to reference template data modal
+```
+
+```js
 out - Use it to reference termplate output stream
+```
 
