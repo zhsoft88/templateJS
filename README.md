@@ -1,7 +1,7 @@
 # templateJS - Lightweight JavaScript Template Engine
 
 ## Description
-[templateJS](http://zhuatang.com/templateJS.jsp).
+See details at [templateJS](http://zhuatang.com/templateJS.jsp).
 
 ## Usage
 
@@ -46,4 +46,11 @@ var tmpl = new Template(source);
 var result = tmpl.render(data);
 document.getElementById("output").innerHTML = result;
 ```
+
+## Template Language Guide
+
+<@= JavaScript_Expression @>
+<@ Any_JavaScript_Codes @>
+o - Use it to reference template data modal
+out - Use it to reference termplate output stream
 
