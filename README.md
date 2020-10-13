@@ -6,28 +6,28 @@ See details at [templateJS](http://zhuatang.com/templateJS.jsp).
 ## Usage
 
 ```html
-<script src="js/template-1.0.min.js"></script>
+<script src="js/template-1.1.min.js"></script>
 ```
 
 Add template as script:
 
 ```html
 <script type="text/template" id="test-template">
-<h3><@= o.title @></h3>
+<h3><%= o.title %></h3>
 <ol>
-<@ for (var i = 0; i < o.features.length; i++) {
-     var item = o.features[i]; @>
-<li><@= item.name @> <@ if (item.desc) { out += '<i>' + item.desc + '</i>'; } @></li>
-<@ } @>
+<% for (var i = 0; i < o.features.length; i++) {
+     var item = o.features[i]; %>
+<li><%= item.name %> <% if (item.desc) { out += '<i>' + item.desc + '</i>'; } %></li>
+<% } %>
 </ol>
-<p><b><@= o.author @></b></p>
+<p><b><%= o.author %></b></p>
 </script>
 ```
 
 Define data modal:
 
 ```js
-var data = { 
+var data = {
   title: 'templateJS: lightweight JavaScript Template Engine',
   features: [
     { name: 'Build with pure JavaScript' },
@@ -50,11 +50,11 @@ document.getElementById("output").innerHTML = result;
 ## Template Language Guide
 
 ```html
-<@= JavaScript_Expression @>
+<%= JavaScript_Expression %>
 ```
 
 ```html
-<@ Any_JavaScript_Codes @>
+<% Any_JavaScript_Codes %>
 ```
 
 ```js

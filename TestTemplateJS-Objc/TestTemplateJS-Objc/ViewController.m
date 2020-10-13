@@ -22,10 +22,10 @@
 
 - (NSString *)templateJS {
   if (_templateJS == nil) {
-    NSString* path = [[NSBundle mainBundle] pathForResource:@"template-1.0.min" ofType:@"js"];
+    NSString* path = [[NSBundle mainBundle] pathForResource:@"template-1.1.min" ofType:@"js"];
     _templateJS = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
   }
-  
+
   return _templateJS;
 }
 
@@ -38,7 +38,7 @@
     NSData* output = [NSJSONSerialization dataWithJSONObject:object options:0 error:nil];
     _dataJSON = [[NSString alloc] initWithData:output encoding:NSUTF8StringEncoding];
   }
-  
+
   return _dataJSON;
 }
 

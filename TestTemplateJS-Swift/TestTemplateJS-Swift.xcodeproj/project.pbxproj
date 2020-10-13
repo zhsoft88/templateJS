@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F287F402535E7A500178BBB /* template-1.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F287F3F2535E7A500178BBB /* template-1.1.min.js */; };
 		6FCAED671E23D3D900E26186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAED661E23D3D900E26186 /* AppDelegate.swift */; };
 		6FCAED691E23D3D900E26186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAED681E23D3D900E26186 /* ViewController.swift */; };
 		6FCAED6C1E23D3D900E26186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAED6A1E23D3D900E26186 /* Main.storyboard */; };
 		6FCAED6E1E23D3D900E26186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAED6D1E23D3D900E26186 /* Assets.xcassets */; };
 		6FCAED711E23D3D900E26186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAED6F1E23D3D900E26186 /* LaunchScreen.storyboard */; };
-		6FCAED9E1E23D42A00E26186 /* template-1.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAED9D1E23D42A00E26186 /* template-1.0.min.js */; };
 		6FCAEDAF1E2A291900E26186 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCAEDAE1E2A291900E26186 /* JavaScriptCore.framework */; };
 		6FCAEDB21E2A292800E26186 /* test-template-modal.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAEDB01E2A292800E26186 /* test-template-modal.json */; };
 		6FCAEDB31E2A292800E26186 /* test-template.tmpl in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAEDB11E2A292800E26186 /* test-template.tmpl */; };
@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F287F3F2535E7A500178BBB /* template-1.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "template-1.1.min.js"; sourceTree = "<group>"; };
 		6FCAED631E23D3D900E26186 /* TestTemplateJS-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestTemplateJS-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCAED661E23D3D900E26186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FCAED681E23D3D900E26186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		6FCAED6D1E23D3D900E26186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FCAED701E23D3D900E26186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FCAED721E23D3D900E26186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FCAED9D1E23D42A00E26186 /* template-1.0.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "template-1.0.min.js"; sourceTree = "<group>"; };
 		6FCAEDAE1E2A291900E26186 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		6FCAEDB01E2A292800E26186 /* test-template-modal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "test-template-modal.json"; sourceTree = "<group>"; };
 		6FCAEDB11E2A292800E26186 /* test-template.tmpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-template.tmpl"; sourceTree = "<group>"; };
@@ -73,8 +73,8 @@
 				6FCAED721E23D3D900E26186 /* Info.plist */,
 				6FCAED6F1E23D3D900E26186 /* LaunchScreen.storyboard */,
 				6FCAED6A1E23D3D900E26186 /* Main.storyboard */,
-				6FCAED9D1E23D42A00E26186 /* template-1.0.min.js */,
 				6FCAEDB01E2A292800E26186 /* test-template-modal.json */,
+				6F287F3F2535E7A500178BBB /* template-1.1.min.js */,
 				6FCAEDB11E2A292800E26186 /* test-template.tmpl */,
 				6FCAED681E23D3D900E26186 /* ViewController.swift */,
 				6FCAEDB41E2A303900E26186 /* ZHTHelperExport.swift */,
@@ -118,7 +118,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = zhuatang;
 				TargetAttributes = {
 					6FCAED621E23D3D900E26186 = {
@@ -130,7 +130,7 @@
 			};
 			buildConfigurationList = 6FCAED5E1E23D3D900E26186 /* Build configuration list for PBXProject "TestTemplateJS-Swift" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -151,10 +151,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FCAED9E1E23D42A00E26186 /* template-1.0.min.js in Resources */,
 				6FCAEDB21E2A292800E26186 /* test-template-modal.json in Resources */,
 				6FCAED711E23D3D900E26186 /* LaunchScreen.storyboard in Resources */,
 				6FCAED6E1E23D3D900E26186 /* Assets.xcassets in Resources */,
+				6F287F402535E7A500178BBB /* template-1.1.min.js in Resources */,
 				6FCAEDB31E2A292800E26186 /* test-template.tmpl in Resources */,
 				6FCAED6C1E23D3D900E26186 /* Main.storyboard in Resources */,
 			);
@@ -205,15 +205,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -236,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -255,15 +264,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -280,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -299,7 +317,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuatang.TestTemplateJS-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -313,7 +331,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuatang.TestTemplateJS-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

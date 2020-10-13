@@ -1,9 +1,9 @@
-<h3><@= o.title @></h3>
+<h3><%= o.title %></h3>
 <ol>
-<@ for (var i = 0; i < o.features.length; i++) {
-     var item = o.features[i]; @>
-<li><@= item.name @> <@ if (item.desc) { out += '<i>' + item.desc + '</i>'; } @></li>
-<@ } @>
+<% for (var i = 0; i < o.features.length; i++) {
+     var item = o.features[i]; %>
+<li><%= item.name %> <% if (item.desc) { out += '<i>' + item.desc + '</i>'; } %></li>
+<% } %>
 </ol>
-<p><b><@= o.author @></b></p>
+<p><b><%= o.author %></b></p>
 

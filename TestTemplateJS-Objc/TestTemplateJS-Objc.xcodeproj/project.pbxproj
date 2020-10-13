@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F287F3C2535E71C00178BBB /* template-1.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F287F3B2535E71C00178BBB /* template-1.1.min.js */; };
 		6FCAED861E23D3F300E26186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAED851E23D3F300E26186 /* main.m */; };
 		6FCAED891E23D3F300E26186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAED881E23D3F300E26186 /* AppDelegate.m */; };
 		6FCAED8C1E23D3F300E26186 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAED8B1E23D3F300E26186 /* ViewController.m */; };
 		6FCAED8F1E23D3F300E26186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAED8D1E23D3F300E26186 /* Main.storyboard */; };
 		6FCAED911E23D3F300E26186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAED901E23D3F300E26186 /* Assets.xcassets */; };
 		6FCAED941E23D3F300E26186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAED921E23D3F300E26186 /* LaunchScreen.storyboard */; };
-		6FCAED9C1E23D41C00E26186 /* template-1.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAED9B1E23D41C00E26186 /* template-1.0.min.js */; };
 		6FCAEDA31E2A1F9200E26186 /* test-template.tmpl in Resources */ = {isa = PBXBuildFile; fileRef = 6FCAEDA21E2A1F9200E26186 /* test-template.tmpl */; };
 		6FCAEDA71E2A1FE800E26186 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCAEDA61E2A1FE800E26186 /* JavaScriptCore.framework */; };
 		6FCAEDAA1E2A203100E26186 /* ZHTHelperImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAEDA91E2A203100E26186 /* ZHTHelperImpl.m */; };
@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F287F3B2535E71C00178BBB /* template-1.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "template-1.1.min.js"; sourceTree = "<group>"; };
 		6FCAED811E23D3F300E26186 /* TestTemplateJS-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestTemplateJS-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCAED851E23D3F300E26186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FCAED871E23D3F300E26186 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		6FCAED901E23D3F300E26186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FCAED931E23D3F300E26186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FCAED951E23D3F300E26186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FCAED9B1E23D41C00E26186 /* template-1.0.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "template-1.0.min.js"; sourceTree = "<group>"; };
 		6FCAEDA21E2A1F9200E26186 /* test-template.tmpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-template.tmpl"; sourceTree = "<group>"; };
 		6FCAEDA41E2A1FD800E26186 /* ZHTHelperExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTHelperExport.h; sourceTree = "<group>"; };
 		6FCAEDA61E2A1FE800E26186 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -79,8 +79,8 @@
 				6FCAED921E23D3F300E26186 /* LaunchScreen.storyboard */,
 				6FCAED8D1E23D3F300E26186 /* Main.storyboard */,
 				6FCAED841E23D3F300E26186 /* Supporting Files */,
-				6FCAED9B1E23D41C00E26186 /* template-1.0.min.js */,
 				6FCAEDAB1E2A240900E26186 /* test-template-modal.json */,
+				6F287F3B2535E71C00178BBB /* template-1.1.min.js */,
 				6FCAEDA21E2A1F9200E26186 /* test-template.tmpl */,
 				6FCAED8A1E23D3F300E26186 /* ViewController.h */,
 				6FCAED8B1E23D3F300E26186 /* ViewController.m */,
@@ -133,7 +133,7 @@
 		6FCAED791E23D3F300E26186 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = zhuatang;
 				TargetAttributes = {
 					6FCAED801E23D3F300E26186 = {
@@ -145,7 +145,7 @@
 			};
 			buildConfigurationList = 6FCAED7C1E23D3F300E26186 /* Build configuration list for PBXProject "TestTemplateJS-Objc" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -166,10 +166,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FCAED9C1E23D41C00E26186 /* template-1.0.min.js in Resources */,
 				6FCAED941E23D3F300E26186 /* LaunchScreen.storyboard in Resources */,
 				6FCAEDA31E2A1F9200E26186 /* test-template.tmpl in Resources */,
 				6FCAEDAC1E2A240900E26186 /* test-template-modal.json in Resources */,
+				6F287F3C2535E71C00178BBB /* template-1.1.min.js in Resources */,
 				6FCAED911E23D3F300E26186 /* Assets.xcassets in Resources */,
 				6FCAED8F1E23D3F300E26186 /* Main.storyboard in Resources */,
 			);
@@ -220,15 +220,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -251,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -268,15 +277,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -293,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

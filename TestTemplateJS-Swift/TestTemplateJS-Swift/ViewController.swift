@@ -14,7 +14,7 @@ class ViewController: UIViewController {
   @IBOutlet weak var resultTextView: UITextView!
   
   var templateJS : String {
-    if let path = Bundle.main.path(forResource: "template-1.0.min", ofType: "js"),
+    if let path = Bundle.main.path(forResource: "template-1.1.min", ofType: "js"),
       let contents = try? String(contentsOfFile: path) {
       return contents
     }
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view, typically from a nib.
     if let context = JSContext() {
       context.evaluateScript(templateJS)
-      context.setObject(ZHTHelperImpl(), forKeyedSubscript: "helper" as (NSCopying & NSObjectProtocol)!)
+      context.setObject(ZHTHelperImpl(), forKeyedSubscript: "helper" as (NSCopying & NSObjectProtocol))
       let script = String(format: "var source = helper.getTemplateSourceById('test-template'); var tmpl = new Template(source); var data = %@; tmpl.render(data)", dataJSON)
       let result = context.evaluateScript(script).toString()
       resultTextView.text = result
