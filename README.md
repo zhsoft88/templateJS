@@ -31,7 +31,7 @@ var data = {
   title: 'templateJS: lightweight JavaScript Template Engine',
   features: [
     { name: 'Build with pure JavaScript' },
-    { name: 'Lightweight and Fast', desc: 'less than 600 bytes' },
+    { name: 'Lightweight and Fast', desc: 'less than 500 bytes' },
     { name: 'Simple and Ease of use' }
   ],
   author: 'zhsoft88@icloud.com'
